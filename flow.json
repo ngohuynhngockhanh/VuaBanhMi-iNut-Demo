@@ -292,7 +292,7 @@
             }
         },
         "site": {
-            "name": "Node-RED Dashboard",
+            "name": "Vua Bánh Mì 01",
             "hideToolbar": "false",
             "allowSwipe": "false",
             "lockMenu": "false",
@@ -318,8 +318,8 @@
         "topic": "/Hkevq5jr4/read",
         "qos": "2",
         "broker": "84ef9236.e2dae",
-        "x": 80,
-        "y": 400,
+        "x": 420,
+        "y": 420,
         "wires": [
             [
                 "761f2eda.6d964"
@@ -450,8 +450,8 @@
         "console": false,
         "tostatus": false,
         "complete": "payload",
-        "x": 960,
-        "y": 80,
+        "x": 1300,
+        "y": 100,
         "wires": []
     },
     {
@@ -462,8 +462,8 @@
         "func": "var json = {\"id\": 0, \"command\": msg.payload};\nmsg.payload = json;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 521.7525100708008,
-        "y": 78.75757503509521,
+        "x": 861.7525100708008,
+        "y": 98.75757503509521,
         "wires": [
             [
                 "68e17008.17d51",
@@ -493,8 +493,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 835.2654304504395,
-        "y": 324.6011848449707,
+        "x": 1175.2654304504395,
+        "y": 344.6011848449707,
         "wires": []
     },
     {
@@ -519,8 +519,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 834.3566970825195,
-        "y": 283.8928327560425,
+        "x": 1174.3566970825195,
+        "y": 303.8928327560425,
         "wires": []
     },
     {
@@ -545,8 +545,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 824.2654304504395,
-        "y": 407.43449783325195,
+        "x": 1164.2654304504395,
+        "y": 427.43449783325195,
         "wires": []
     },
     {
@@ -571,8 +571,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 853.3566970825195,
-        "y": 366.72614574432373,
+        "x": 1193.3566970825195,
+        "y": 386.72614574432373,
         "wires": []
     },
     {
@@ -597,8 +597,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 882.2654304504395,
-        "y": 492.43449783325195,
+        "x": 1222.2654304504395,
+        "y": 512.434497833252,
         "wires": []
     },
     {
@@ -623,8 +623,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 851.3566970825195,
-        "y": 451.72614574432373,
+        "x": 1191.3566970825195,
+        "y": 471.72614574432373,
         "wires": []
     },
     {
@@ -649,8 +649,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 881.2654304504395,
-        "y": 575.2678108215332,
+        "x": 1221.2654304504395,
+        "y": 595.2678108215332,
         "wires": []
     },
     {
@@ -675,8 +675,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 880.3566970825195,
-        "y": 534.559458732605,
+        "x": 1220.3566970825195,
+        "y": 554.559458732605,
         "wires": []
     },
     {
@@ -693,13 +693,13 @@
         "mode": "text",
         "delay": "0",
         "topic": "",
-        "x": 181.25247955322266,
-        "y": 78.85898303985596,
+        "x": 510,
+        "y": 100,
         "wires": [
             [
                 "679e4cd2.a19434",
-                "e5173811.fdfae8",
-                "8d5cb37c.89bca"
+                "8d5cb37c.89bca",
+                "e5173811.fdfae8"
             ]
         ]
     },
@@ -715,8 +715,8 @@
         "label": "Đã gửi lệnh",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 722.5385131835938,
-        "y": 118.9340410232544,
+        "x": 1062.5385131835938,
+        "y": 138.9340410232544,
         "wires": []
     },
     {
@@ -727,8 +727,8 @@
         "func": "\nmsg.payload =  msg.payload.length;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 421.2654800415039,
-        "y": 160.43448162078857,
+        "x": 761.2654800415039,
+        "y": 180.43448162078857,
         "wires": [
             [
                 "d6401e5d.58256"
@@ -751,8 +751,8 @@
         "min": 0,
         "max": "32",
         "step": 1,
-        "x": 594.3591995239258,
-        "y": 157.88762855529785,
+        "x": 934.3591995239258,
+        "y": 177.88762855529785,
         "wires": [
             []
         ]
@@ -765,8 +765,8 @@
         "func": "\nmsg.payload =  msg.payload.substr(0, 32);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 489.3855209350586,
-        "y": 119.06986141204834,
+        "x": 829.3855209350586,
+        "y": 139.06986141204834,
         "wires": [
             [
                 "1dc068db.2cb4a7"
@@ -778,8 +778,8 @@
         "type": "subflow:f1dc90e2.04428",
         "z": "21232020.7456d",
         "name": "",
-        "x": 560,
-        "y": 400,
+        "x": 900,
+        "y": 420,
         "wires": [
             [
                 "5709b469.1140ac"
@@ -869,8 +869,8 @@
         "type": "subflow:8a457e61.9b5eb",
         "z": "21232020.7456d",
         "name": "",
-        "x": 320,
-        "y": 400,
+        "x": 660,
+        "y": 420,
         "wires": [
             [
                 "3206f072.75987"
@@ -886,8 +886,221 @@
         "qos": "",
         "retain": "",
         "broker": "84ef9236.e2dae",
-        "x": 900,
-        "y": 120,
+        "x": 1240,
+        "y": 140,
         "wires": []
+    },
+    {
+        "id": "2a352917.9d61b6",
+        "type": "ui_numeric",
+        "z": "21232020.7456d",
+        "name": "",
+        "label": "Ngưỡng 1",
+        "group": "4ee8ed24.7ba6b4",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "THRESHOLD 1",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": "50",
+        "step": 1,
+        "x": 90,
+        "y": 100,
+        "wires": [
+            [
+                "3106cf15.4b816"
+            ]
+        ]
+    },
+    {
+        "id": "93c4c0d4.f8ea3",
+        "type": "ui_numeric",
+        "z": "21232020.7456d",
+        "name": "",
+        "label": "Ngưỡng 2",
+        "group": "4ee8ed24.7ba6b4",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "THRESHOLD 2",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": "50",
+        "step": 1,
+        "x": 90,
+        "y": 140,
+        "wires": [
+            [
+                "3106cf15.4b816"
+            ]
+        ]
+    },
+    {
+        "id": "364a4443.35758c",
+        "type": "ui_button",
+        "z": "21232020.7456d",
+        "name": "",
+        "group": "4ee8ed24.7ba6b4",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Bật báo động",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "RELAY 1 ON",
+        "payloadType": "str",
+        "topic": "",
+        "x": 240,
+        "y": 180,
+        "wires": [
+            [
+                "f026af2e.13568"
+            ]
+        ]
+    },
+    {
+        "id": "6d45a091.ad55c",
+        "type": "ui_button",
+        "z": "21232020.7456d",
+        "name": "",
+        "group": "4ee8ed24.7ba6b4",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Tắt báo động",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "RELAY 1 OFF",
+        "payloadType": "str",
+        "topic": "",
+        "x": 240,
+        "y": 220,
+        "wires": [
+            [
+                "f026af2e.13568"
+            ]
+        ]
+    },
+    {
+        "id": "3106cf15.4b816",
+        "type": "function",
+        "z": "21232020.7456d",
+        "name": "",
+        "func": "msg.payload = msg.topic + ' ' + msg.payload \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 240,
+        "y": 120,
+        "wires": [
+            [
+                "f026af2e.13568"
+            ]
+        ]
+    },
+    {
+        "id": "f7d38c3e.95744",
+        "type": "ui_numeric",
+        "z": "21232020.7456d",
+        "name": "",
+        "label": "Sét thời gian dừng báo động",
+        "group": "4ee8ed24.7ba6b4",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "SET_TIME",
+        "format": "{{value}}",
+        "min": "0.5",
+        "max": "4",
+        "step": "0.3",
+        "x": 140,
+        "y": 60,
+        "wires": [
+            [
+                "3106cf15.4b816"
+            ]
+        ]
+    },
+    {
+        "id": "da0f94c8.a96438",
+        "type": "ui_button",
+        "z": "21232020.7456d",
+        "name": "",
+        "group": "4ee8ed24.7ba6b4",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Buộc Bật báo động",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "RELAY 1 FORCE_ON",
+        "payloadType": "str",
+        "topic": "",
+        "x": 250,
+        "y": 260,
+        "wires": [
+            [
+                "f026af2e.13568"
+            ]
+        ]
+    },
+    {
+        "id": "878f9892.948c38",
+        "type": "ui_button",
+        "z": "21232020.7456d",
+        "name": "",
+        "group": "4ee8ed24.7ba6b4",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Bật Đèn ",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "RELAY 0 ON",
+        "payloadType": "str",
+        "topic": "",
+        "x": 220,
+        "y": 340,
+        "wires": [
+            [
+                "f026af2e.13568"
+            ]
+        ]
+    },
+    {
+        "id": "4f270a29.63a804",
+        "type": "ui_button",
+        "z": "21232020.7456d",
+        "name": "",
+        "group": "4ee8ed24.7ba6b4",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Tắt đèn",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "RELAY 0 OFF",
+        "payloadType": "str",
+        "topic": "",
+        "x": 220,
+        "y": 380,
+        "wires": [
+            [
+                "f026af2e.13568"
+            ]
+        ]
     }
 ]
