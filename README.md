@@ -3,7 +3,6 @@ VuaBanhMiDemo
 
 Demo hệ thống cho VuaBanhMi
 
-### About
+### Về tôi
 
-This is your project's README.md file. It helps users understand what your
-project does, how to use it and anything else they may need to know.
+Đây là chương trình Demo từ hệ thống iNut Platform cho đối tác Vua Bánh Mì 
